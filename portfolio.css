@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(image/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header.logo {
+    background-color: linear-gradient(to top, white, black);
+}
+
+.logo-img {
+    height: 60px;
+    width: 150px;
+    margin: 5px;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar_item {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+
+.navbar_item:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar_item:active {
+    color: red;
+}
+
+.top-div {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 200px;
+}
+
+.top-div-title {
+    color: grey;
+    font-size: 5vw;
+    padding-top: 300px;
+    padding-left: 600px;
+}
+
+.name {
+    color: black;
+    font-weight: 600%;
+}
+
+.job-title {
+    background-color: black;
+    color: white;
+    width: 500px;
+    margin-left: 400px;
+    text-align: right;
+    padding: 3px;
+}
+
+.my-img {
+    border: 0px;
+    border-radius: 165px;
+    width: 200px;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 400px;
+    float: left;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+.about-grp {
+    background-color: black;
+    border-radius: 15px;
+    color: black;
+    height: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    line-height: 40px;
+    width: 30%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.about-grp:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.title {
+    color: red;
+}
